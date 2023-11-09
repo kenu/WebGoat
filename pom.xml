@@ -655,6 +655,16 @@
     </plugins>
   </build>
 
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>4.8.1.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
   <profiles>
     <profile>
       <id>local-server</id>
